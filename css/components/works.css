@@ -1,0 +1,18 @@
+.works{
+    padding: 35px 0;
+    background-color:rgba(3, 214, 137, 0.54);
+    box-shadow: 1px 1px 1px  darkgreen, 0 0 25px grey, 0 0 2px darkgrey;
+}
+.works-title{
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.card-body{
+    background-color:rgba(201, 250, 187, 0.8);
+}
+.card-title{
+    font-weight: bold;
+}
+.card-img-top{
+    height: 15rem;
+}

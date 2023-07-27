@@ -1,0 +1,22 @@
+*,html {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 16px;
+    
+}
+html{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex-grow: 1;
+ }
+ footer{
+    flex-shrink: 0;
+ }
+
+
+
