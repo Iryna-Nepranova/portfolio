@@ -1,20 +1,33 @@
+header {
+  position: sticky;
+  top:0;
+  z-index: 3;
+}
 .navigation {
-  background-color:rgba(139, 241, 191, 0.8);
+  background-color:rgba(12, 161, 89, 0.5);
   box-shadow: 1px 1px 1px  darkgreen, 0 0 25px grey, 0 0 2px darkgrey;
-
+}
+.sticky {
+  background: rgba(72, 195, 168, 0.9);
+  transition: 2s;
+}
+.sticky a {
+  color: #5c4e82
 }
 .nav {
   padding: 25px 0;
 }
 a.nav-link {
-    color: black;
-    font-weight: bold;
+   color: black;
+   font-weight: bold;
   }
 
 a.nav-link:hover {
-   color: rgba(156, 3, 97, 0.63);
+   color: white;
    font-weight: bold;
    text-decoration: underline;
+   box-shadow: 1px 1px 1px  darkgreen, 0 0 25px grey, 0 0 2px darkgrey;
+   border-radius: 5px;
 }
 
 #showMe {

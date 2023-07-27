@@ -6,14 +6,16 @@
 }
 .hero-name{
     padding-left: 20px;
-    font-size: 1.5rem;
+    padding-bottom: 40px;
+    font-size: 2rem;
 }
 .about-description{
-    color:rgba(8, 16, 113, 0.95);
-    font-weight: 400;
+    
+    font-weight: bolder;
     border-left: 1px solid black;
     padding-left: 10px;
-    max-width: 450px;
+    max-width: 500px;
+    font-size: 20px;
 }
 .logo-name{
     font-family: 'Satisfy', cursive;
