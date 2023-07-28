@@ -6,8 +6,25 @@
    .nav-desktop{
     display: none;
    }
-    .mobile{
+   .mobile{
      display: flex;
+    }
+    #home {
+        height: auto;
+    }
+    .hero-title,.hero-name,.about-description{
+        text-align: center;
+    }
+    .about-description {
+        border-right: 1px solid black;
+        font-size: 16px;
+    }
+    .about-cards{
+        gap: 10px;
+        justify-content: center;
+    }
+    .works-cards{
+        gap: 15px;
     }
 }
     

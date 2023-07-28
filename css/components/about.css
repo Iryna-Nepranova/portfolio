@@ -20,3 +20,7 @@
 .card-desr {
     font-weight: bold;
 }
+.about-cards{
+    gap: 10px;
+    justify-content: center;
+}
