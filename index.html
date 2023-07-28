@@ -1,183 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
     <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
 
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;1,100;1,200&family=Satisfy&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
     <title>Portfolio | Nepranova Iryna</title>
-</head>
-<body>
+  </head>
+
+  <body>
     <header class="navigation">
-        <div class="container">
-                        <nav class="nav d-flex justify-content-end ">
-                        <a class="nav-link active" href="#home">| Home</a>
-                        <a class="nav-link "  href="#about">| About me</a>
-                        <a class="nav-link" href="#works">| My works</a>
-                        <a class="nav-link" href="#contact">| Contact</a>
-              </nav>
-              <nav class="navbar bg-body-tertiary fixed-top">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#">IN</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
-                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#about">About me</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#works">My works</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                      </ul>                    
-                    </div>
-                  </div>
-                </div>
-              </nav>
+      <div class="container">
+        <div class="nav-desktop">
+        <nav class="nav  d-flex justify-content-end ">
+          <a class="nav-link active" href="#home">| Home</a>
+          <a class="nav-link " href="#about">| About me</a>
+          <a class="nav-link" href="#works">| My works</a>
+          <a class="nav-link" href="#contact">| Contact</a>
+        </nav>
         </div>
+        <div class="mobile">
+        <nav class="navbar fixed-top">
+          <div class="container">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#works">My works</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+        </div>
+      </div>
     </header>
     <main>
-       
-    <section class="home" id="home">
-         <div class="container">
-        <div class="bg-home" >
-            <img src="./images/map.png" alt="map" class="image-map"/>
-        </div>
-     <h1 class="hero-title">WELCOME.</h1>
-      <p class="hero-name">My name is <span class="logo-name">Iryna Nepranova</span> </p> 
-     <div class="about-description">        
-    <p>I am an aspiring Front-End developer
-        who always gets a thrill from seeing static code come to life on the screen.<br/>
-        I enjoy helping people interact with technology to achieve their goals,
-        find information, or to make purchases by using web-sites.<br/><span>I love what I do.</span> </p>
-     </div> 
-     </section>
-     </div>
-    <section class="about" id="about">
+
+      <section class="home" id="home">
         <div class="container">
-        <h2 class="about-title">| ABOUT ME</h2>
-        <p class="about-me">
+          <div class="bg-home">
+            <img src="./images/map.png" alt="map" class="image-map" />
+          </div>
+          <h1 class="hero-title">WELCOME.</h1>
+          <p class="hero-name">My name is <span class="logo-name">Iryna Nepranova</span> </p>
+          <div class="about-description">
+            <p>I am an aspiring Front-End developer
+              who always gets a thrill from seeing static code come to life on the screen.<br />
+              I enjoy helping people interact with technology to achieve their goals,
+              find information, or to make purchases by using web-sites.<br /><span>I love what I do.</span> </p>
+          </div>
+          </div>
+      </section>
+      <section class="about" id="about">
+        <div class="container">
+          <h2 class="about-title">| ABOUT ME</h2>
+          <p class="about-me">
             A responsible, enthusiastic, reliable person with great experience working in a bank.
             I`m interested in Web development and everything related to it. In a short time
             I have developed a deep understanding of web-based processes. I consider myself a fast learner
             with a great passion for new knowledge and technology.
-        </p>
-        <h5 class="text-center skills-title">My Key Skills</h5>
-        <div class="about-cards d-flex justify-content-between flex-wrap">
+          </p>
+          <h5 class="text-center skills-title">My Key Skills</h5>
+          <div class="about-cards d-flex justify-content-between flex-wrap">
             <div class="card card-icon ">
-              <img src="./images/html.png" alt="icon" class="img-card"/>
+              <img src="./images/html.png" alt="icon" class="img-card" />
               <p class="card-desr text-center">HTML</p>
             </div>
             <div class="card card-icon">
-                <img src="./images/css.png" alt="icon" class="img-card"/>
-                <p class="card-desr text-center">CSS</p>
-              </div>
-              <div class="card card-icon">
-                <img src="./images/js.png" alt="icon" class="img-card"/>
-                <p class="card-desr text-center">JavaScript</p>
-              </div>
-              <div class="card card-icon">
-                <img src="./images/react.png" alt="icon" class="img-card"/>
-                <p class="card-desr text-center">React</p>
-              </div>
-              <div class="card card-icon">
-                <img src="./images/git.png" alt="icon" class="img-card"/>
-                <p class="card-desr text-center">Git</p>
-              </div>
-              <div class="card card-icon">
-                <img src="./images/bootstrap.png" alt="icon" class="img-card"/>
-                <p class="card-desr text-center">Bootstrap</p>
-              </div>
-              <div class="card card-icon">
-                <img src="./images/figma.png" alt="icon" class="img-card"/>
-                <p class="card-desr text-center">Figma</p>
-              </div>
+              <img src="./images/css.png" alt="icon" class="img-card" />
+              <p class="card-desr text-center">CSS</p>
+            </div>
+            <div class="card card-icon">
+              <img src="./images/js.png" alt="icon" class="img-card" />
+              <p class="card-desr text-center">JavaScript</p>
+            </div>
+            <div class="card card-icon">
+              <img src="./images/react.png" alt="icon" class="img-card" />
+              <p class="card-desr text-center">React</p>
+            </div>
+            <div class="card card-icon">
+              <img src="./images/git.png" alt="icon" class="img-card" />
+              <p class="card-desr text-center">Git</p>
+            </div>
+            <div class="card card-icon">
+              <img src="./images/bootstrap.png" alt="icon" class="img-card" />
+              <p class="card-desr text-center">Bootstrap</p>
+            </div>
+            <div class="card card-icon">
+              <img src="./images/figma.png" alt="icon" class="img-card" />
+              <p class="card-desr text-center">Figma</p>
+            </div>
+          </div>
         </div>
-        </div>
-    </section>
-    
-    <section class="works" id="works">
+      </section>
+
+      <section class="works" id="works">
         <div class="container">
-        <h2 class="works-title">| MY WORKS</h2>
-        <div class="works-cards d-flex flex-wrap justify-content-between">
-        <div class="card card-works" style="width: 20rem;">
-            <img src="./images/blueeasy.png" class="card-img-top" alt="website">
-            <div class="card-body">
-              <h5 class="card-title">BlueEasy</h5>
-              <p class="card-text">HTML,CSS, Bootstrap</p>
-              <div class="links d-flex justify-content-between">
-                <a href="https://iryna-nepranova.github.io/Blueasy/" class="btn btn-success" target="_blank">Live demo</a>
-                <a href="https://github.com/Iryna-Nepranova/Blueasy" class="btn btn-success" target="_blank">Github</a>
-              </div>              
+          <h2 class="works-title">| MY WORKS</h2>
+          <div class="works-cards d-flex flex-wrap justify-content-between">
+            <div class="card card-works" style="width: 20rem;">
+              <img src="./images/blueeasy.png" class="card-img-top" alt="website">
+              <div class="card-body">
+                <h5 class="card-title">BlueEasy</h5>
+                <p class="card-text">HTML,CSS, Bootstrap</p>
+                <div class="links d-flex justify-content-between">
+                  <a href="https://iryna-nepranova.github.io/Blueasy/" class="btn btn-success" target="_blank">Live demo</a>
+                  <a href="https://github.com/Iryna-Nepranova/Blueasy" class="btn btn-success" target="_blank">Github</a>
+                </div>
+              </div>
+            </div>
+            <div class="card card-works" style="width: 20rem;">
+              <img src="./images/golden.png" class="card-img-top" alt="website">
+              <div class="card-body">
+                <h5 class="card-title">Golden</h5>
+                <p class="card-text">HTML,CSS, Bootstrap</p>
+                <div class="links d-flex justify-content-between">
+                  <a href="https://iryna-nepranova.github.io/Golden/" class="btn btn-success" target="_blank">Live demo</a>
+                  <a href="https://github.com/Iryna-Nepranova/Golden" class="btn btn-success" target="_blank">Github</a>
+                </div>
+              </div>
+            </div>
+            <div class="card card-works" style="width: 20rem;">
+              <img src="./images/prechu.png" class="card-img-top" alt="website">
+              <div class="card-body">
+                <h5 class="card-title">Prechu</h5>
+                <p class="card-text">HTML,CSS, JS</p>
+                <div class="links d-flex justify-content-between">
+                  <a href="https://iryna-nepranova.github.io/Prechu/" class="btn btn-success" target="_blank">Live demo</a>
+                  <a href="https://github.com/Iryna-Nepranova/Prechu" class="btn btn-success" target="_blank">Github</a>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="card card-works" style="width: 20rem;">
-            <img src="./images/golden.png" class="card-img-top" alt="website">
-            <div class="card-body">
-              <h5 class="card-title">Golden</h5>
-              <p class="card-text">HTML,CSS, Bootstrap</p>
-              <div class="links d-flex justify-content-between">
-                <a href="https://iryna-nepranova.github.io/Golden/" class="btn btn-success" target="_blank">Live demo</a>
-                <a href="https://github.com/Iryna-Nepranova/Golden" class="btn btn-success" target="_blank">Github</a>
-              </div>              
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <div class="container">
+          <h2 class="contact-title">| Contact me</h2>
+          <div class="contact-icon d-flex justify-content-center">
+            <div class="linkedin">
+              <a href="https://www.linkedin.com/in/iryna-nepranova/">
+                <img src="./images/linkedin.png" alt="linkedin" target="_blank" class="img-contact" />
+              </a>
             </div>
-          </div>
-          <div class="card card-works" style="width: 20rem;">
-            <img src="./images/prechu.png" class="card-img-top" alt="website">
-            <div class="card-body">
-              <h5 class="card-title">Prechu</h5>
-              <p class="card-text">HTML,CSS, JS</p>
-              <div class="links d-flex justify-content-between">
-                <a href="https://iryna-nepranova.github.io/Prechu/" class="btn btn-success" target="_blank">Live demo</a>
-                <a href="https://github.com/Iryna-Nepranova/Prechu" class="btn btn-success" target="_blank">Github</a>
-              </div>              
+            <div class="email">
+              <a href="mailto:i.nepranova@gmail.com">
+                <img src="./images/email.png" alt="linkedin" target="_blank" class="img-contact" />
+              </a>
             </div>
           </div>
         </div>
-        </div>
-    </section>
-    <section class="contact" id="contact">
-      <div class="container">
-      <h2 class="contact-title">| Contact me</h2>
-      <div class="contact-icon d-flex justify-content-center">
-        <div class="linkedin">
-          <a href="https://www.linkedin.com/in/iryna-nepranova/">
-            <img src="./images/linkedin.png" alt="linkedin" target="_blank" class="img-contact"/>
-          </a>
-        </div>
-        <div class="email">
-          <a href = "mailto:i.nepranova@gmail.com">
-            <img src="./images/email.png" alt="linkedin" target="_blank" class="img-contact"/>
-          </a>
-        </div>
-      </div>
-      </div>
-    </div>
+      </section>
     </main>
     <footer>
-            <div class="container">   
-                <p class="d-flex justify-content-end footer"> Nepranova Iryna &#169 2023</p>
-           </div>
-        </footer>
+      <div class="container">
+        <p class="d-flex justify-content-end footer"> Nepranova Iryna &#169 2023</p>
+      </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-<script src="js/index.js"></script>
-</body>
+    <script src="js/index.js"></script>
+  </body>
+
 </html>
