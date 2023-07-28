@@ -1,0 +1,13 @@
+@media (min-width: 779px) {
+    .navbar{
+     visibility: visible;
+    }
+ }
+@media (min-width: 780px) {
+   .bg-home, .navigation,.navbar{
+    visibility: hidden;
+   }
+    .bg-home, .navigation{
+        visibility: visible;
+   }
+}

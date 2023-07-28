@@ -15,19 +15,48 @@
 </head>
 <body>
     <header class="navigation">
-        <div class="container-fluid">
+        <div class="container">
                         <nav class="nav d-flex justify-content-end ">
                         <a class="nav-link active" href="#home">| Home</a>
                         <a class="nav-link "  href="#about">| About me</a>
                         <a class="nav-link" href="#works">| My works</a>
                         <a class="nav-link" href="#contact">| Contact</a>
               </nav>
+              <nav class="navbar bg-body-tertiary fixed-top">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">IN</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#about">About me</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#works">My works</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                      </ul>                    
+                    </div>
+                  </div>
+                </div>
+              </nav>
         </div>
     </header>
     <main>
        
     <section class="home" id="home">
-         <div class="container-fluid">
+         <div class="container">
         <div class="bg-home" >
             <img src="./images/map.png" alt="map" class="image-map"/>
         </div>
@@ -42,7 +71,7 @@
      </section>
      </div>
     <section class="about" id="about">
-        <div class="container-fluid">
+        <div class="container">
         <h2 class="about-title">| ABOUT ME</h2>
         <p class="about-me">
             A responsible, enthusiastic, reliable person with great experience working in a bank.
@@ -85,7 +114,7 @@
     </section>
     
     <section class="works" id="works">
-        <div class="container-fluid">
+        <div class="container">
         <h2 class="works-title">| MY WORKS</h2>
         <div class="works-cards d-flex flex-wrap justify-content-between">
         <div class="card card-works" style="width: 20rem;">
@@ -125,7 +154,7 @@
         </div>
     </section>
     <section class="contact" id="contact">
-      <div class="container-fluid">
+      <div class="container">
       <h2 class="contact-title">| Contact me</h2>
       <div class="contact-icon d-flex justify-content-center">
         <div class="linkedin">
@@ -143,7 +172,7 @@
     </div>
     </main>
     <footer>
-            <div class="container-fluid">   
+            <div class="container">   
                 <p class="d-flex justify-content-end footer"> Nepranova Iryna &#169 2023</p>
            </div>
         </footer>

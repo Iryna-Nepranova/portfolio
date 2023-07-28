@@ -29,6 +29,12 @@ a.nav-link:hover {
    box-shadow: 1px 1px 1px  darkgreen, 0 0 25px grey, 0 0 2px darkgrey;
    border-radius: 5px;
 }
+a.nav-link:hover{
+  color: black;
+   font-weight: bold;
+   text-decoration: underline;
+  
+}
 
 #showMe {
     animation: cssAnimation 0s 1s forwards;
