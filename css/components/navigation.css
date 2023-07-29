@@ -35,11 +35,3 @@ a.nav-link:hover{
    text-decoration: underline;  
 }
 
-#showMe {
-    animation: cssAnimation 0s 1s forwards;
-    opacity: 0; 
-}
-  
-  @keyframes cssAnimation {
-    to   { opacity: 1;}
-  }
