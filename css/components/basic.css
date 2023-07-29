@@ -19,6 +19,11 @@ main{
  footer{
     flex-shrink: 0;
  }
+ p {
+  margin: 0 !important;
+  
+}
+ 
  .reveal{
     position: relative;
     transform: translateY(150px);

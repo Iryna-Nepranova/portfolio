@@ -16,6 +16,13 @@
     width: auto;
     height: 90px;
     padding-bottom: 10px;
+    
+}
+.img-avatar{
+    width: auto;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px darkgreen, 0 0 25px grey, 0 0 2px darkgrey;
 }
 .card-desr {
     font-weight: bold;
@@ -23,4 +30,15 @@
 .about-cards{
     gap: 10px;
     justify-content: center;
+}
+.about-me {
+    gap:10px;
+}
+.me-desc{
+    background-color:rgba(255, 255, 255, 0.6);
+    box-shadow: 1px 1px 1px darkgreen, 0 0 25px grey, 0 0 2px darkgrey;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-style: italic;
 }
