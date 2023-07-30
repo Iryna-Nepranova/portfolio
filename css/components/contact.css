@@ -7,3 +7,7 @@
     width: 50px;
     height: 50px;
 }
+.img-contact:hover{
+    box-shadow: 1px 1px 1px  darkgreen, 0 0 25px grey, 0 0 2px darkgrey;
+    border-radius: 10px;
+}

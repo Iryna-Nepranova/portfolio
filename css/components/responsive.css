@@ -19,13 +19,25 @@
         border-right: 1px solid black;
         font-size: 16px;
     }
-   
+   .about-me{
+    flex-direction: column;
+    align-items: center;
+   }
+   .me-desc{
+    border-right: 1px solid black;
+    border-left: 1px solid black ;
+    padding: 0 10px;
+   }
     .about-cards{
         gap: 10px;
         justify-content: center;
     }
     .works-cards{
         gap: 15px;
+    }
+    .contact-info {
+        flex-direction: column;
+        align-items: center;
     }
 }
     
