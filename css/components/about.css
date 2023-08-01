@@ -34,3 +34,12 @@
     padding-left: 10px;
     
 }
+.about-links{
+    text-decoration: none;
+    color: black;
+    width: 96px;
+}
+.about-links:hover{
+    color:white;
+    background-color:rgba(30, 135, 70, 0.745);
+}
