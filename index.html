@@ -211,21 +211,39 @@
         <div class="container">
           <h2 class="contact-title">| Contact me</h2>
           <div class="contact-info d-flex align-items-center">
-            <h6 class="contact-subtitle">Don't hesitate to get in touch with me if you need additional information</h6>
-            <div class="contact-icon d-flex">
-              <div class="linkedin">
-                <a href="https://www.linkedin.com/in/iryna-nepranova/" target="_blank">
-                  <img src="./images/linkedin.png" alt="linkedin" class="img-contact" />
-                </a>
-              </div>
-              <div class="email">
-                <a href="mailto:i.nepranova@gmail.com">
-                  <img src="./images/email.png" alt="linkedin" target="_blank" class="img-contact" />
-                </a>
-              </div>
+          <h6 class="contact-subtitle">Don't hesitate to get in touch with me if you need additional information</h6>
+          <div class="contact-icon d-flex">
+            <div class="linkedin">
+              <a href="https://www.linkedin.com/in/iryna-nepranova/" target="_blank" >
+                <img src="./images/linkedin.png" alt="linkedin" class="img-contact" />
+              </a>
+            </div>
+            <div class="email">
+              <a href="mailto:email4learning2023@gmail.com">
+                <img src="./images/email.png" alt="linkedin" target="_blank" class="img-contact" />
+              </a>
             </div>
           </div>
         </div>
+        <form method="post" name="contact_form" action="https://formsubmit.co/email4learning2023@gmail.com">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label" >Your name</label>
+            <input type="text" class="form-control" name="name" id="exampleFormControlInput1" placeholder="Please, write your name" required/>
+          </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput2" class="form-label">Email address</label>
+          <input type="email" class="form-control" name="email" id="exampleFormControlInput2" placeholder="name@example.com" required>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Your message</label>
+          <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3" required></textarea>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-success" type="submit" value="Submit">Contact me</button>
+        </div>
+        <input type="hidden" name="_next" value="https://iryna-nepranova.github.io/portfolio/thanks.html">
+        </form>
+      </div>
       </section>
     </main>
     <footer>
