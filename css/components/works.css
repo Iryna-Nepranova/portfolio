@@ -29,6 +29,14 @@
 .card-img-top{
     height: 15rem;
 }
-.btn-git{
+.btn-visit{
     padding: 20px;
+    position: relative;
+  animation-name: visit;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes visit { 
+    from  {background-color:rgb(54, 210, 210); color:rgb(168, 4, 154);}
+    to  {background-color:rgb(225, 240, 14);color:rgb(7, 74, 55);}  
 }

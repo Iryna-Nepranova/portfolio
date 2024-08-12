@@ -2,7 +2,6 @@
     background-color: 	rgba(7, 174, 92, 0.8);
     padding: 35px 0;
 }
-
 .skills-title {
     font-weight: bold;
     padding: 30px 0;
@@ -27,12 +26,15 @@
     gap: 10px;
     justify-content: center;
 }
+.card-skill:hover{
+    background-color:rgba(39, 245, 174, 0.54);
+    box-shadow: 1px 1px 1px darkgreen, 0 0 25px grey, 0 0 2px darkgrey;
+}
 .about-me {
     gap:10px;
 }
 .me-desc {
-    padding-left: 10px;
-    
+    padding-left: 10px;    
 }
 .about-links{
     text-decoration: none;
